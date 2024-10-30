@@ -14,7 +14,7 @@ function Project() {
     const handleShowMore = () => setShowMore(!isShowmore)
 
     return (
-        <section id='Projects' className=' bg-mainBg md:px-20 pt-12 md:pt-0 py-5 px-5 md:py-2'>
+        <section id='Projects' className=' bg-mainBg md:px-20 pt-20 md:pt-0 py-5 px-5 md:py-2'>
             <div className='w-full h-10  flex flex-row-reverse items-center justify-end bg-mainBg md:py-20  '>
                 <div className='h-[2px] w-2/4  md:w-1/3 bg-primaryText '>.</div>
                 <h1 className='text-primaryText   text-sectionHeading font-fontHeading' ><span className="text-themeBlue font-fontHeading">3.</span>Projects </h1>
