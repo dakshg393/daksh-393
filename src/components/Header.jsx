@@ -19,9 +19,10 @@ function Header() {
 
         <>
 
+
             <div className={`w-screen h-20 bg-mainBg  fixed z-[100]`}>
                 <div className={`w-full h-full flex flex-row  bg-mainBg p-4 items-center `}>
-                    <div className={` w-1/3 h-full flex flex-row items-center justify-start`}><Link smooth to="#Home"><img className="max-h-10" src={logo}  /></Link></div>
+                    <div className={` w-1/3 h-full flex flex-row items-center justify-start`}><Link smooth to="#Home"><img className="max-h-10" src={logo} /></Link></div>
                     <div className={`  md:h-full md:w-2/3 md:flex flex-col md:flex-row items-center md:justify-end justify-center pr-10  hidden `}>
 
                         {navLinks.map((nav, idx) => (

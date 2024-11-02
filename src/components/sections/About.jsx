@@ -3,7 +3,7 @@ import { skills } from '../../utilities/util.js'
 import { Icon } from '@iconify/react/dist/iconify.js'
 const About = () => {
     return (
-        <section id='About' className=' bg-mainBg px-22 md:p-20 pt-20 md:pt-0'>
+        <section id='About' className=' bg-mainBg px-22  md:p-20 pt-20 md:pt-20'>
             <div className='w-full h-10  flex md:flex-row flex-row-reverse items-center justify-end '>
                 <div className='h-[2px] w-2/4  md:w-1/3 bg-primaryText mx-1'>.</div>
                 <h1 className='text-primaryText text-sectionHeading font-fontHeading' ><span className='text-themeBlue  text-bold '>2.</span>About Me </h1>
