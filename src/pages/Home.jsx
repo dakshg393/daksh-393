@@ -17,7 +17,7 @@ function Home(){
                 />
                 <meta
                     name="keywords"
-                    content="Daksh Gupta, Software Engineer, MERN Stack, Portfolio, Web Developer,Mandsaur,BCA,Mandsaur University"
+                    content="Daksh Gupta,dakshgupta,Daksh gupta , sde, software Engineer, MERN Stack, Portfolio, Web Developer,Mandsaur,BCA,Mandsaur University"
                 />
                 <meta property="og:title" content="Daksh Gupta - Software Engineer Portfolio" />
                 <meta
@@ -27,7 +27,7 @@ function Home(){
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://dakshgupta.vercel.app/#About" />
                 {/* <meta property="og:image" content="https://yourportfolio.com/images/profile.jpg" /> */}
-                <link rel="canonical" href="https://dakshgupta.vercel.app/#About" />
+                <link rel="canonical" href="https://dakshgupta.vercel.app" />
             </Helmet>
 
             <Header />
