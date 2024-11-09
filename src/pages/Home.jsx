@@ -17,7 +17,7 @@ function Home(){
                 />
                 <meta
                     name="keywords"
-                    content="Daksh Gupta, Software Engineer, MERN Stack, Portfolio, Web Developer,Mandsaur,BCA,Mandsaur University"
+                    content="Daksh Gupta,dakshgupta,Daksh gupta , sde, software Engineer, MERN Stack, Portfolio, Web Developer,Mandsaur,BCA,Mandsaur University"
                 />
                 <meta property="og:title" content="Daksh Gupta - Software Engineer Portfolio" />
                 <meta
