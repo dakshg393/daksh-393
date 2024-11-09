@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import React, { useState } from "react";
 import logo from '../assets/logo.png'
 import { HashLink as Link } from "react-router-hash-link";
-import { navLinks, ResumeLink } from "../utilities/util";
+import { navLinks, ResumeLink } from "../utilities/util.js";
 import { ButtonLink } from './index'
 
 function Header() {

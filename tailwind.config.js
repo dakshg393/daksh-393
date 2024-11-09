@@ -11,6 +11,8 @@ export default {
         primaryText: "#CCD6F6",
         secondaryText: "#8892B0",
         themeBlue: "#64FFDA",
+
+     
       },
       fontFamily: {
         fontHeading: "Poppins, sans-serif",

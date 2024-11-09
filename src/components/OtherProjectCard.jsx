@@ -13,7 +13,7 @@ function OtherProjectCard({
     console.log(skills)
     return (
         <div className="flex flex-col items-center justify-center p-12  w-full bg-[#112240]  ">
-            <div className=" flex flex-row flex-1 justify-between items-center w-full mb-14 text-primaryText">
+            <div className=" flex flex-row flex-1 justify-between items-center w-full  text-primaryText">
                 <a className="text-themeBlue " href={projectLink} target="_self"><FiFolder size={40} /></a>
                 <div className="flex flex-row gap-2">
                     <a className="hover:text-themeBlue" href={githubLink} target="_blank"><FiGithub size={30} /></a>

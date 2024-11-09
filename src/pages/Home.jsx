@@ -25,9 +25,9 @@ function Home(){
                     content="Explore the projects and skills of Daksh Gupta, a future software engineer specializing in the MERN stack."
                 />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://dakshgupta.vercel.app/#About" />
+                <meta property="og:url" content="https://dakshgupta.vercel.app" />
                 {/* <meta property="og:image" content="https://yourportfolio.com/images/profile.jpg" /> */}
-                <link rel="canonical" href="https://dakshgupta.vercel.app/#About" />
+                <link rel="canonical" href="https://dakshgupta.vercel.app" />
             </Helmet>
 
             <Header />
