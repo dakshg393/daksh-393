@@ -10,6 +10,7 @@ function Home(){
                     {/* Software Engineer Portfolio */}
 
                 </title>
+                <meta name="author" content="Daksh Gupta">
                 <meta
                     name="description"
                     content="Portfolio of Daksh Gupta, a BCA student and MERN stack developer aspiring to become a software engineer."
