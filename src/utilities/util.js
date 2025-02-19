@@ -134,65 +134,71 @@ const mainProjects = [
 ]
 
 const miniProjects = [
-    {   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react routehis project gives lerning about react and react route his project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
+    {   
+        projectLink: "https://blogify-woad-five.vercel.app",
+        githubLink: "https://github.com/dakshg393/Learn-React",
+        title: "Blogify",
+        desc: "A React-based blogging platform with a real-time editor (RTE) and Appwrite backend service. Implements state management for content updates.",
+        skills: ["React", "Appwrite", "State Management", "RTE", "Tailwind", "JavaScript"]
     },
-    {   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
-    },{   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
-    },{   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
-    },{   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
-    },{   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
-    },{   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
-    },{   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
-    },{   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
-    },{   projectLink :"https://password-generator-dakshs-projects-3bc3a00a.vercel.app/",
-        githubLink : "https://github.com/dakshg393/Learn-React/tree/main/05passwordGenerator",
-        title :"Password Ganerator",
-        desc:"This project gives lerning about react and react router",
-        skills:["React","JS","ReactRouter","React","JS","ReactRouter"]
+    {   
+        projectLink: "https://bg-changer-five-theta.vercel.app",
+        githubLink: "https://github.com/dakshg393/Learn-React",
+        title: "BG Changer",
+        desc: "A single-page application that allows users to change the background color dynamically, demonstrating component-based updates.",
+        skills: ["React", "State Management", "SPA", "Tailwind", "JavaScript"]
     },
-    {
-        projectLink :"",
-        githubLink : "",
-        title :"",
-        desc:"",
-        skills:[]
+    {   
+        projectLink: "https://currency-convertor-seven-pi.vercel.app",
+        githubLink: "https://github.com/dakshg393/Learn-React",
+        title: "Currency Converter",
+        desc: "A real-time currency conversion tool that fetches and displays exchange rates from an API using fetch.",
+        skills: ["React", "Fetch API", "JavaScript", "CSS"]
+    },
+    {   
+        projectLink: "https://theam-switcher.vercel.app",
+        githubLink: "https://github.com/dakshg393/Learn-React",
+        title: "Theme Switcher",
+        desc: "A theme toggle app demonstrating state management and theme persistence using local storage.",
+        skills: ["React", "State Management", "Local Storage", "Tailwind", "JavaScript"]
+    },
+    {   
+        projectLink: "https://todo-localstorage-three.vercel.app",
+        githubLink: "https://github.com/dakshg393/Learn-React",
+        title: "Todo App (Local Storage)",
+        desc: "A persistent to-do list app that stores tasks in local storage, ensuring data is retained across refreshes.",
+        skills: ["React", "Local Storage", "State Management", "CSS", "JavaScript"]
+    },
+    {   
+        projectLink: "https://blog-app-beta-orcin.vercel.app",
+        githubLink: "https://github.com/dakshg393/Learn-React",
+        title: "Todo App (Temporary State)",
+        desc: "A basic to-do list app that manages tasks using temporary state, meaning tasks disappear on refresh.",
+        skills: ["React", "useState", "State Management", "CSS", "JavaScript"]
+    },
+    {   
+        projectLink: "https://password-generator-khaki-alpha.vercel.app",
+        githubLink: "https://github.com/dakshg393/Learn-React",
+        title: "Password Generator",
+        desc: "A password generator that creates secure passwords using React hooks like useCallback, useRef, and useEffect.",
+        skills: ["React", "useCallback", "useRef", "useEffect", "Tailwind", "JavaScript"]
+    },
+    {   
+        projectLink: "https://company-portfolio-tau.vercel.app",
+        githubLink: "https://github.com/dakshg393/Learn-React",
+        title: "Company Portfolio",
+        desc: "A portfolio website showcasing a company's details with tab-based navigation and dynamic UI updates.",
+        skills: ["React", "Tab Navigation", "UI/UX", "HTML", "CSS", "JavaScript"]
     }
+
+
+    // {
+    //     projectLink :"",
+    //     githubLink : "",
+    //     title :"",
+    //     desc:"",
+    //     skills:[]
+    // }
 ]
   
 
