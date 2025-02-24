@@ -156,26 +156,13 @@ const miniProjects = [
         skills: ["React", "Fetch API", "JavaScript", "CSS"]
     },
     {   
-        projectLink: "https://theam-switcher.vercel.app",
-        githubLink: "https://github.com/dakshg393/Learn-React",
-        title: "Theme Switcher",
-        desc: "A theme toggle app demonstrating state management and theme persistence using local storage.",
-        skills: ["React", "State Management", "Local Storage", "Tailwind", "JavaScript"]
-    },
-    {   
         projectLink: "https://todo-localstorage-three.vercel.app",
         githubLink: "https://github.com/dakshg393/Learn-React",
-        title: "Todo App (Local Storage)",
+        title: "Todo App ",
         desc: "A persistent to-do list app that stores tasks in local storage, ensuring data is retained across refreshes.",
         skills: ["React", "Local Storage", "State Management", "CSS", "JavaScript"]
     },
-    {   
-        projectLink: "https://blog-app-beta-orcin.vercel.app",
-        githubLink: "https://github.com/dakshg393/Learn-React",
-        title: "Todo App (Temporary State)",
-        desc: "A basic to-do list app that manages tasks using temporary state, meaning tasks disappear on refresh.",
-        skills: ["React", "useState", "State Management", "CSS", "JavaScript"]
-    },
+
     {   
         projectLink: "https://password-generator-khaki-alpha.vercel.app",
         githubLink: "https://github.com/dakshg393/Learn-React",
