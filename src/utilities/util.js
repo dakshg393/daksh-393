@@ -1,4 +1,3 @@
-
 import { PortfolioProject,RecipeProject} from "../assets/index.js";
 
 const ResumeLink = "https://drive.google.com/file/d/1cDJut15e_GTK9iNMkGl4VERLHVDtz4RH/view?usp=sharing"
@@ -29,11 +28,13 @@ import nodejsIcon from "@iconify-icons/logos/nodejs-icon";
 import expressIcon from "@iconify-icons/logos/express";
 import reactIcon from "@iconify-icons/logos/react";
 import mongodbIcon from "@iconify-icons/logos/mongodb";
-import tailwindIcon from "@iconify-icons/logos/tailwindcss"
+// import tailwindIcon from "@iconify-icons/logos/tailwindcss"
 import html5Icon from "@iconify-icons/logos/html-5";
 import css3Icon from "@iconify-icons/logos/css-3";
 import djangoIcon from "@iconify-icons/logos/django";
-
+import python from "@iconify-icons/logos/python"
+import cpp from "@iconify-icons/logos/c-plusplus"
+import tailwind from "@iconify-icons/logos/tailwindcss-icon"
 
 const skills = [
     { 
@@ -44,7 +45,7 @@ const skills = [
     { 
      
         icon: nodejsIcon,
-        name: "CSS" 
+        name: "Nodejs" 
     },
     {
        
@@ -63,7 +64,7 @@ const skills = [
     },
     {
       
-        icon: tailwindIcon,
+        icon: tailwind,
         name: "Tailwind" 
     },
     {
@@ -80,7 +81,17 @@ const skills = [
        
         icon: djangoIcon,
         name: "Django" 
-    }
+    },
+    {
+       
+        icon: python,
+        name: "Python" 
+    },
+    {
+       
+        icon: cpp,
+        name: "C++" 
+    },
 
 ]
 
@@ -190,3 +201,4 @@ const miniProjects = [
   
 
 export {navLinks,skills ,socialPlateformLinks,mainProjects,miniProjects,ResumeLink}
+
