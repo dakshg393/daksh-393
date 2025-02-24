@@ -35,6 +35,8 @@ import djangoIcon from "@iconify-icons/logos/django";
 import python from "@iconify-icons/logos/python"
 import cpp from "@iconify-icons/logos/c-plusplus"
 import tailwind from "@iconify-icons/logos/tailwindcss-icon"
+import git from "@iconify-icons/logos/git-icon"
+ 
 
 const skills = [
     { 
@@ -92,6 +94,12 @@ const skills = [
         icon: cpp,
         name: "C++" 
     },
+    {
+       
+        icon: git,
+        name: "Github" 
+    },
+   
 
 ]
 
