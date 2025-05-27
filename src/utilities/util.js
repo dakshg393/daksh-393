@@ -1,23 +1,23 @@
-import { PortfolioProject,RecipeProject} from "../assets/index.js";
+import { AgentVerse, Playtube, PortfolioProject, RecipeProject, } from "../assets/index.js";
 
 const ResumeLink = "https://drive.google.com/file/d/1cDJut15e_GTK9iNMkGl4VERLHVDtz4RH/view?usp=sharing"
 
 const navLinks = [
     {
-        url:"#Home",
-        name:"1.Home",
+        url: "#Home",
+        name: "1.Home",
     },
     {
-        url:"#About",
-        name:" 2.About",
+        url: "#About",
+        name: " 2.About",
     },
     {
-        url:"#Projects",
-        name:"3.Projects",
+        url: "#Projects",
+        name: "3.Projects",
     },
     {
-        url:"#Contact",
-        name:"4.Contact",
+        url: "#Contact",
+        name: "4.Contact",
     },
 ]
 
@@ -36,145 +36,163 @@ import python from "@iconify-icons/logos/python"
 import cpp from "@iconify-icons/logos/c-plusplus"
 import tailwind from "@iconify-icons/logos/tailwindcss-icon"
 import git from "@iconify-icons/logos/git-icon"
- 
+
 
 const skills = [
-    { 
-      
+
+    {
+
         icon: javascriptIcon,
-        name: "Javascript" 
+        name: "Javascript"
     },
-    { 
-     
+    {
+
         icon: nodejsIcon,
-        name: "Nodejs" 
+        name: "Nodejs"
     },
     {
-       
+
         icon: expressIcon,
-        name: "Express" 
+        name: "Express"
     },
     {
-     
+
         icon: reactIcon,
-        name: "React" 
+        name: "React"
     },
     {
-      
+
         icon: mongodbIcon,
-        name: "MongoDB" 
+        name: "MongoDB"
     },
     {
-      
+
         icon: tailwind,
-        name: "Tailwind" 
+        name: "Tailwind"
     },
     {
-      
+
         icon: html5Icon,
-        name: "HTML" 
+        name: "HTML"
     },
     {
-       
+
         icon: css3Icon,
-        name: "CSS" 
+        name: "CSS"
     },
     {
-       
+
         icon: djangoIcon,
-        name: "Django" 
+        name: "Django"
     },
     {
-       
+
         icon: python,
-        name: "Python" 
+        name: "Python"
     },
     {
-       
+
         icon: cpp,
-        name: "C++" 
+        name: "C++"
     },
     {
-       
+
         icon: git,
-        name: "Github" 
+        name: "Github"
     },
-   
+
 
 ]
 
-import { AiFillGithub} from "react-icons/ai"; 
-import { SiLeetcode,SiLinkedin  } from "react-icons/si";
+import { AiFillGithub } from "react-icons/ai";
+import { SiLeetcode, SiLinkedin } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 const socialPlateformLinks = [
     {
-      url: "https://github.com/dakshg393/",
-      icon: AiFillGithub,
-      name: "Github",
+        url: "https://github.com/dakshg393/",
+        icon: AiFillGithub,
+        name: "Github",
     },
     {
-      url: "https://leetcode.com/u/dakshg393/",
-      icon: SiLeetcode,
-      name: "Leetcode",
+        url: "https://leetcode.com/u/dakshg393/",
+        icon: SiLeetcode,
+        name: "Leetcode",
     },
-  
+
     {
-      url: "https://www.linkedin.com/in/dakshg393/",
-      icon: SiLinkedin ,
-      name: "Linkedin",
+        url: "https://www.linkedin.com/in/dakshg393/",
+        icon: SiLinkedin,
+        name: "Linkedin",
     },
     {
         url: "https://x.com/dakshg393",
-        icon: FaXTwitter ,
+        icon: FaXTwitter,
         name: "X",
-      },
-    
-  ];
+    },
+
+];
 
 const mainProjects = [
     {
-        
-            title:"Personal Portfolio",
-            desc:"Tjis port folioA portfolio description can refer to a collection of work samples that demonstrate your skills and expertise, or a collection of financial assets and investment tools:",
-            skills:["React","React-dom" , "JavaScript"],
-            githubLink:"https://github.com",
-            projectLink:"",
-            imagepath:RecipeProject,
+        title: "AgentVerse",
+        desc: "Built a multi-agent AI platform for interview, legal, and healthcare use-cases using Gemini API and TypeScript. Enabled real-time voice interaction via AssemblyAI with dynamic LLM prompts and resume parsing. Included credit-based subscriptions, JWT authentication, and user history.",
+        skills: ["Next.js", "React", "TypeScript", "Node.js", "MongoDB", "Gemini API", "AssemblyAI", "Zustand", "JWT"],
+        githubLink: "https://github.com", // replace with actual link
+        projectLink: "", // add deployed link if available
+        imagepath: AgentVerse
+    },
+
+    {
+        title: "PlayTube",
+        desc: "Developed a full-stack video-sharing app with JWT auth, secure login, and Cloudinary video uploads. Users can like, comment, and subscribe, with a responsive UI built using React and Tailwind. Backend supports efficient video streaming with Mongoose aggregation.",
+        skills: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "JWT", "TailwindCSS", "Mongoose"],
+        githubLink: "https://github.com", // replace with actual link
+        projectLink: "", // add deployed link if available
+        imagepath: Playtube
     },
     {
-        
-        title:"Personal Portfolio",
-        desc:"Designed a modern, responsive layout using React and Tailwind CSS, with interactive animations powered by Framer Motion to enhance user engagement. Implemented smooth navigation and visually appealing transitions, creating an engaging and accessible experience for visitors.",
-        skills:[ "React", "Tailwind", "CSS", "JavaScript", "Framer Motion"],
-        githubLink:"https://github.com",
-        projectLink:"https://project.com",
-        imagepath:PortfolioProject,
-}
+        title: "Chefify",
+        desc: "Recipe-sharing platform built with Django and AJAX-powered real-time search. Features include secure user authentication, responsive frontend, and a modular backend architecture. Won 2nd place at Spandan 2k24 Hackathon and later improved with enhanced UI/UX.",
+        skills: ["Django", "HTML", "CSS", "JavaScript", "AJAX"],
+        githubLink: "https://github.com", // replace with actual link
+        projectLink: "", // add deployed link if available
+        imagepath: RecipeProject
+    },
+
+    {
+
+        title: "Personal Portfolio",
+        desc: "Designed a modern, responsive layout using React and Tailwind CSS, with interactive animations powered by Framer Motion to enhance user engagement. Implemented smooth navigation and visually appealing transitions, creating an engaging and accessible experience for visitors.",
+        skills: ["React", "Tailwind", "CSS", "JavaScript", "Framer Motion"],
+        githubLink: "https://github.com",
+        projectLink: "https://project.com",
+        imagepath: PortfolioProject,
+    }
 ]
 
 const miniProjects = [
-    {   
+    {
         projectLink: "https://blogify-woad-five.vercel.app",
         githubLink: "https://github.com/dakshg393/Learn-React",
         title: "Blogify",
         desc: "A React-based blogging platform with a real-time editor (RTE) and Appwrite backend service. Implements state management for content updates.",
         skills: ["React", "Appwrite", "State Management", "RTE", "Tailwind", "JavaScript"]
     },
-    {   
+    {
         projectLink: "https://bg-changer-five-theta.vercel.app",
         githubLink: "https://github.com/dakshg393/Learn-React",
         title: "BG Changer",
         desc: "A single-page application that allows users to change the background color dynamically, demonstrating component-based updates.",
         skills: ["React", "State Management", "SPA", "Tailwind", "JavaScript"]
     },
-    {   
+    {
         projectLink: "https://currency-convertor-seven-pi.vercel.app",
         githubLink: "https://github.com/dakshg393/Learn-React",
         title: "Currency Converter",
         desc: "A real-time currency conversion tool that fetches and displays exchange rates from an API using fetch.",
         skills: ["React", "Fetch API", "JavaScript", "CSS"]
     },
-    {   
+    {
         projectLink: "https://todo-localstorage-three.vercel.app",
         githubLink: "https://github.com/dakshg393/Learn-React",
         title: "Todo App ",
@@ -182,14 +200,14 @@ const miniProjects = [
         skills: ["React", "Local Storage", "State Management", "CSS", "JavaScript"]
     },
 
-    {   
+    {
         projectLink: "https://password-generator-khaki-alpha.vercel.app",
         githubLink: "https://github.com/dakshg393/Learn-React",
         title: "Password Generator",
         desc: "A password generator that creates secure passwords using React hooks like useCallback, useRef, and useEffect.",
         skills: ["React", "useCallback", "useRef", "useEffect", "Tailwind", "JavaScript"]
     },
-    {   
+    {
         projectLink: "https://company-portfolio-tau.vercel.app",
         githubLink: "https://github.com/dakshg393/Learn-React",
         title: "Company Portfolio",
@@ -206,7 +224,7 @@ const miniProjects = [
     //     skills:[]
     // }
 ]
-  
 
-export {navLinks,skills ,socialPlateformLinks,mainProjects,miniProjects,ResumeLink}
+
+export { navLinks, skills, socialPlateformLinks, mainProjects, miniProjects, ResumeLink }
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from "../../assets/profile-pic.jpg";
+import Profile from "../../assets/profile-pic1.jpg";
 import { motion } from 'framer-motion'
 import { useState } from 'react';
 function Hero() {
