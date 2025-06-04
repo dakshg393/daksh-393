@@ -137,7 +137,7 @@ const mainProjects = [
         title: "AgentVerse",
         desc: "Built a multi-agent AI platform for interview, legal, and healthcare use-cases using Gemini API and TypeScript. Enabled real-time voice interaction via AssemblyAI with dynamic LLM prompts and resume parsing. Included credit-based subscriptions, JWT authentication, and user history.",
         skills: ["Next.js", "React", "TypeScript", "Node.js", "MongoDB", "Gemini API", "AssemblyAI", "Zustand", "JWT"],
-        githubLink: "https://github.com", // replace with actual link
+        githubLink: "https://github.com/dakshg393/AgentVerse", 
         projectLink: "https://agentverse-chi.vercel.app/", // add deployed link if available
         imagepath: AgentVerse
     },
@@ -146,28 +146,28 @@ const mainProjects = [
         title: "PlayTube",
         desc: "Developed a full-stack video-sharing app with JWT auth, secure login, and Cloudinary video uploads. Users can like, comment, and subscribe, with a responsive UI built using React and Tailwind. Backend supports efficient video streaming with Mongoose aggregation.",
         skills: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "JWT", "TailwindCSS", "Mongoose"],
-        githubLink: "https://github.com", // replace with actual link
-        projectLink: "", // add deployed link if available
+        githubLink: "https://github.com/dakshg393/Playtube-Backend", 
+        projectLink: "", 
         imagepath: Playtube
     },
     {
         title: "Chefify",
         desc: "Recipe-sharing platform built with Django and AJAX-powered real-time search. Features include secure user authentication, responsive frontend, and a modular backend architecture. Won 2nd place at Spandan 2k24 Hackathon and later improved with enhanced UI/UX.",
         skills: ["Django", "HTML", "CSS", "JavaScript", "AJAX"],
-        githubLink: "https://github.com", // replace with actual link
+        githubLink: "https://github.com/dakshg393/Chefify", // replace with actual link
         projectLink: "", // add deployed link if available
         imagepath: RecipeProject
     },
 
-    {
+    // {
 
-        title: "Personal Portfolio",
-        desc: "Designed a modern, responsive layout using React and Tailwind CSS, with interactive animations powered by Framer Motion to enhance user engagement. Implemented smooth navigation and visually appealing transitions, creating an engaging and accessible experience for visitors.",
-        skills: ["React", "Tailwind", "CSS", "JavaScript", "Framer Motion"],
-        githubLink: "https://github.com",
-        projectLink: "https://project.com",
-        imagepath: PortfolioProject,
-    }
+    //     title: "Personal Portfolio",
+    //     desc: "Designed a modern, responsive layout using React and Tailwind CSS, with interactive animations powered by Framer Motion to enhance user engagement. Implemented smooth navigation and visually appealing transitions, creating an engaging and accessible experience for visitors.",
+    //     skills: ["React", "Tailwind", "CSS", "JavaScript", "Framer Motion"],
+    //     githubLink: "https://github.com",
+    //     projectLink: "https://project.com",
+    //     imagepath: PortfolioProject,
+    // }
 ]
 
 const miniProjects = [
