@@ -138,7 +138,7 @@ const mainProjects = [
         desc: "Built a multi-agent AI platform for interview, legal, and healthcare use-cases using Gemini API and TypeScript. Enabled real-time voice interaction via AssemblyAI with dynamic LLM prompts and resume parsing. Included credit-based subscriptions, JWT authentication, and user history.",
         skills: ["Next.js", "React", "TypeScript", "Node.js", "MongoDB", "Gemini API", "AssemblyAI", "Zustand", "JWT"],
         githubLink: "https://github.com", // replace with actual link
-        projectLink: "", // add deployed link if available
+        projectLink: "https://agentverse-chi.vercel.app/", // add deployed link if available
         imagepath: AgentVerse
     },
 
