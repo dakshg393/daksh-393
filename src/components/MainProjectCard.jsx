@@ -7,8 +7,8 @@ const MainProjectCard = ({title,desc,skills,githubLink,projectLink,imagepath,idx
     return(
         <>
         <div className={` w-8/10 h-[70vh] bg-transparent md:bg-mainBg p-4 my-20  md:my-0 flex  ${isleft?"flex-row":"flex-row-reverse"} justify-center items-center `}>
-            <div className=' md:w-8/12 h-full md:p-2 py-10 px-4  md:relative  absolute  w-full  z-0'>
-                <a href={projectLink} target="_self"><img src={imagepath}  className='h-full w-full rounded-xl opacity-10 md:opacity-100'/></a>
+            <div className=' md:w-8/12 h-full md:p-2 py-10 px-4  md:relative  absolute  w-full  z-0 '>
+                <a href={projectLink} target="_self"><img src={imagepath}  className='h-full w-full rounded-xl opacity-10 md:opacity-100 border-themeBlue border-2 '/></a>
             </div>
             <div className={` md:w-4/12 h-full bg-[#112240]/12 md:bg-mainBg  flex  justify-center flex-col  relative z-10 ${isleft?"items-end":"items-start"}`}>
                 <p className="text-themeBlue font-mono">Featured Project</p>

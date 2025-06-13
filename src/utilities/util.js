@@ -1,4 +1,4 @@
-import { AgentVerse, Playtube, PortfolioProject, RecipeProject, } from "../assets/index.js";
+import { AgentVerse, StreamSphere, PortfolioProject, RecipeProject,Securechain } from "../assets/index.js";
 
 const ResumeLink = "https://drive.google.com/file/d/1cDJut15e_GTK9iNMkGl4VERLHVDtz4RH/view?usp=sharing"
 
@@ -143,12 +143,21 @@ const mainProjects = [
     },
 
     {
-        title: "PlayTube",
+        title: "SecureChain",
+        desc: "SecureChain is a blockchain-powered web application for secure and tamper-proof document verification. It enables users to upload, verify, and authenticate documents through decentralized ledger technology. The platform is built with React, Tailwind CSS, and Web3 to ensure a seamless and responsive user experience.",
+        skills:["React", "Tailwind CSS", "JavaScript", "Node.js", "Express.js", "Web3.js", "MetaMask", "React Router"],
+        githubLink: "https://github.com/dakshg393/SecureChain", // replace with actual link
+        projectLink: "https://securechain-eight.vercel.app/", // add deployed link if available
+        imagepath: Securechain
+    },
+
+    {
+        title: "StreamSphere",
         desc: "Developed a full-stack video-sharing app with JWT auth, secure login, and Cloudinary video uploads. Users can like, comment, and subscribe, with a responsive UI built using React and Tailwind. Backend supports efficient video streaming with Mongoose aggregation.",
         skills: ["React", "Node.js", "Express", "MongoDB", "Cloudinary", "JWT", "TailwindCSS", "Mongoose"],
-        githubLink: "https://github.com/dakshg393/Playtube-Backend", 
-        projectLink: "", 
-        imagepath: Playtube
+        githubLink: "https://github.com/dakshg393/StreamSphere", 
+        projectLink: "https://stream-sphere-4ban.vercel.app/", 
+        imagepath: StreamSphere
     },
     {
         title: "Chefify",
@@ -159,15 +168,15 @@ const mainProjects = [
         imagepath: RecipeProject
     },
 
-    // {
+    {
 
-    //     title: "Personal Portfolio",
-    //     desc: "Designed a modern, responsive layout using React and Tailwind CSS, with interactive animations powered by Framer Motion to enhance user engagement. Implemented smooth navigation and visually appealing transitions, creating an engaging and accessible experience for visitors.",
-    //     skills: ["React", "Tailwind", "CSS", "JavaScript", "Framer Motion"],
-    //     githubLink: "https://github.com",
-    //     projectLink: "https://project.com",
-    //     imagepath: PortfolioProject,
-    // }
+        title: "Personal Portfolio",
+        desc: "Designed a modern, responsive layout using React and Tailwind CSS, with interactive animations powered by Framer Motion to enhance user engagement. Implemented smooth navigation and visually appealing transitions, creating an engaging and accessible experience for visitors.",
+        skills: ["React", "Tailwind", "CSS", "JavaScript", "Framer Motion"],
+        githubLink: "https://github.com/dakshg393/daksh-393",
+        projectLink: "https://dakshgupta.vercel.app/",
+        imagepath: PortfolioProject,
+    }
 ]
 
 const miniProjects = [
@@ -213,9 +222,10 @@ const miniProjects = [
         title: "Company Portfolio",
         desc: "A portfolio website showcasing a company's details with tab-based navigation and dynamic UI updates.",
         skills: ["React", "Tab Navigation", "UI/UX", "HTML", "CSS", "JavaScript"]
-    }
+    },
 
-
+   
+    
     // {
     //     projectLink :"",
     //     githubLink : "",
