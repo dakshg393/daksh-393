@@ -1,6 +1,6 @@
 import { AgentVerse, StreamSphere, PortfolioProject, RecipeProject,Securechain } from "../assets/index.js";
 
-const ResumeLink = "https://drive.google.com/file/d/1cDJut15e_GTK9iNMkGl4VERLHVDtz4RH/view?usp=sharing"
+const ResumeLink = "https://drive.google.com/file/d/10cbdIIIu57zM_YivofTIzaiMs4JzwcGw/view"
 
 const navLinks = [
     {
@@ -103,6 +103,8 @@ const skills = [
 
 
 ]
+
+
 
 import { AiFillGithub } from "react-icons/ai";
 import { SiLeetcode, SiLinkedin } from "react-icons/si";
