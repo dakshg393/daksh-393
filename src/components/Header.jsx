@@ -50,7 +50,7 @@ function Header() {
                         <Link smooth key={idx} to={nav.url} className="hover:text-themeBlue p-4 font-semibold text-primaryText font-mono " onClick={toggleNav}>{nav.name}</Link>
                     ))}
 
-                    <ButtonLink content="Resume" url="localhost:300" classNameBtn="" classNameBox="mt-2" blank={true} />
+                    <ButtonLink content="Resume" url={ResumeLink} classNameBtn="" classNameBox="mt-2" blank={true} />
 
                 </div>
             </div>
