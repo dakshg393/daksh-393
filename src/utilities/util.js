@@ -1,6 +1,6 @@
 import { AgentVerse, StreamSphere, PortfolioProject, RecipeProject,Securechain } from "../assets/index.js";
 
-const ResumeLink = "https://drive.google.com/file/d/10cbdIIIu57zM_YivofTIzaiMs4JzwcGw/view"
+const ResumeLink = "https://drive.google.com/file/d/1zlog9r5gJL9B3x5FZL7mZURL6NFhLfGk/view?usp=drivesdk"
 
 const navLinks = [
     {
